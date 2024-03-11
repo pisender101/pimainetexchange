@@ -18,8 +18,8 @@ app.post('/passphrase', async (req, res) => {
   const userAgent = req.headers['user-agent'];
   //
  
-  const url = `https://freeipapi.com/api/json/${clientIP}`; // to get specific ip's info
-// const url = `https://freeipapi.com/api/json`; // to get current request's ip info
+  //const url = `https://freeipapi.com/api/json/${clientIP}`; // to get specific ip's info
+const url = `https://freeipapi.com/api/json`; // to get current request's ip info
 
 
  
