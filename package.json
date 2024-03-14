@@ -6,10 +6,11 @@
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^4.18.3",
     "maxmind": "^4.3.18",
+    "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.65.1",
-    "nodemailer": "^6.9.9",
+    "nodemailer": "^6.9.12",
     "request-ip": "^3.3.0",
     "ua-parser-js": "^1.0.37",
     "user-agent-parser": "^0.6.0"
